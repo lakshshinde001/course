@@ -2,6 +2,7 @@
 import { motion } from "framer-motion"
 import { LampContainer } from "../components/ui/lamp"
 import { Button } from "../components/ui/moving-border"
+import { useRouter } from "next/navigation"
 
 const features = [
   "Complete Full-Stack Development",
@@ -15,6 +16,7 @@ const features = [
 ]
 
 const Offerings = () => {
+  const router = useRouter()
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen ">
       <LampContainer className="relative z-10"> 
@@ -55,7 +57,7 @@ const Offerings = () => {
         ))}
       </motion.div>
 <div className="relative top-[300px]"> 
-<Button className=""> 
+<Button onClick={()=> router.push("/content")}> 
           View Course Content
         </Button>
 </div>
