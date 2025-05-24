@@ -108,7 +108,7 @@ const Offerings = () => {
             className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-900/50 to-blue-900/50 border border-purple-500/30 text-purple-300 px-6 py-3 rounded-full text-sm font-medium mb-6 shadow-lg backdrop-blur-sm"
           >
             <span className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></span>
-            What You'll Master
+            What You will Master
           </motion.div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-white via-purple-400 to-cyan-400 bg-clip-text text-transparent mb-6">
